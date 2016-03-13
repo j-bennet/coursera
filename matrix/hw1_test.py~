@@ -1,0 +1,12 @@
+from GF2 import one
+
+a = [one, one, 0, 0, 0, 0, 0]
+b = [0, one, one, 0, 0, 0, 0]
+c = [0, 0, one, one, 0, 0, 0]
+d = [0, 0, 0, one, one, 0, 0]
+e = [0, 0, 0, 0, one, one, 0]
+f = [0, 0, 0, 0, 0, one, one]
+
+def add(v, u):
+    return [v[i] + u[i] for i in range(len(v))]
+

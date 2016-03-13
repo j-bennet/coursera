@@ -1,2 +1,2 @@
 # coursera
-Excercises for coursera classes
+Exercises for coursera classes

@@ -1,0 +1,10 @@
+D:\src\vs\tsp\bin\Debug\tsp.txt
+D:\src\vs\tsp\bin\Debug\t01.txt
+D:\src\vs\tsp\bin\Debug\t02.txt
+D:\src\vs\tsp\bin\Debug\t03.txt
+D:\src\vs\tsp\bin\Debug\t04.txt
+D:\src\vs\tsp\bin\Debug\tsp.exe
+D:\src\vs\tsp\bin\Debug\tsp.pdb
+D:\src\vs\tsp\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\src\vs\tsp\obj\x86\Debug\tsp.exe
+D:\src\vs\tsp\obj\x86\Debug\tsp.pdb
