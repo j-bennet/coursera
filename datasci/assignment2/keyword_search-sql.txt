@@ -1,0 +1,6 @@
+create view frequencyq as select * from frequency
+union select 'q' as docid, 'washington' as term, 1 as count 
+union select 'q' as docid, 'taxes' as term, 1 as count
+union select 'q' as docid, 'treasury' as term, 1 as count;
+
+select a.docid, sum(a.count * b.count) as v from frequency as a join frequencyq as b on b.term = a.term where b.docid = 'q' group by a.docid order by v;

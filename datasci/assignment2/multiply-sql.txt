@@ -1,0 +1,1 @@
+select a.row_num as row, b.col_num as col, sum(a.value * b.value) as v from a, b where a.col_num = b.row_num group by a.row_num, b.col_num;

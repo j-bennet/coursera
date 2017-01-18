@@ -1,3 +1,0 @@
-Read 94255 values in 0
-Calculated 9 sums in 0
-101110100

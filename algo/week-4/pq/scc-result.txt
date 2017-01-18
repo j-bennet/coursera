@@ -1,7 +1,0 @@
-Read graph in: 22.7780001163
-Reversed graph in: 4.46399998665
-First dfs loop: 8.45299983025
-Second dfs loop: 8.27100014687
-Components: [434821, 968, 459, 313, 211]
-Expected: ?
-Run scc in: 22.1279997826
