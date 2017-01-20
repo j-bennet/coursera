@@ -21,10 +21,31 @@ object Main {
   /**
    * Exercise 2
    */
-    def balance(chars: List[Char]): Boolean = ???
+    def balance(chars: List[Char]): Boolean = {
+      def isBalanced(s: List[Char], runningTotal: Int): Boolean = {
+        if (s.isEmpty)
+          return runningTotal == 0
+        if (runningTotal < 0)
+          return false
+        if (s.head == '(')
+          return isBalanced(s.tail, runningTotal + 1)
+        if (s.head == ')')
+          return isBalanced(s.tail, runningTotal - 1)
+        isBalanced(s.tail, runningTotal)
+      }
+      isBalanced(chars, 0)
+    }
   
   /**
    * Exercise 3
    */
-    def countChange(money: Int, coins: List[Int]): Int = ???
+    def countChange(money: Int, coins: List[Int]): Int = {
+      if (money == 0)
+        return 1
+      if (money < 0)
+        return 0
+      if (coins.isEmpty)
+        return 0
+      countChange(money - coins.head, coins) + countChange(money, coins.tail)
+    }
   }
